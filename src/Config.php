@@ -169,11 +169,7 @@ class Config extends \PhpCsFixer\Config
             'switch_case_space' => true,
             'switch_continue_to_break' => true,
             'ternary_operator_spaces' => true,
-            'trailing_comma_in_multiline' => [
-                'elements' => [
-                    'arrays',
-                ],
-            ],
+            'trailing_comma_in_multiline_array' => true,
             'trim_array_spaces' => true,
             'unary_operator_spaces' => true,
             'line_ending' => true,
